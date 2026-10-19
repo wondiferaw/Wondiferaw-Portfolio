@@ -1,0 +1,27 @@
+/* NotFound.css */
+
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2d2b2b;
+    color: #ffffff;
+    padding: 30px;
+  }
+  
+  .not-found-content {
+    text-align: center;
+  }
+  
+  .astronaut-image {
+    width: 200px;
+    margin-top: 20px;
+    filter: drop-shadow(-6px 5px 8px rgba(0, 0, 0, 0.5));
+    animation: float 3s ease-in-out infinite;
+}
+  @keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
